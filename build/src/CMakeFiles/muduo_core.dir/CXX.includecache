@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/EpollPoller.h
+vector
+-
+sys/epoll.h
+-
+Poller.h
+../inc/Poller.h
+Timestamp.h
+../inc/Timestamp.h
+
+../inc/Poller.h
+vector
+-
+unordered_map
+-
+noncopyable.h
+../inc/noncopyable.h
+Timestamp.h
+../inc/Timestamp.h
+
+../inc/Timestamp.h
+iostream
+-
+string
+-
+
+../inc/noncopyable.h
+
+/home/b1ur/project/muduo-core/src/DefaultPoller.cc
+stdlib.h
+-
+Poller.h
+/home/b1ur/project/muduo-core/src/Poller.h
+EpollPoller.h
+/home/b1ur/project/muduo-core/src/EpollPoller.h
+
